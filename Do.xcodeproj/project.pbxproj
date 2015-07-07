@@ -13,6 +13,13 @@
 		971AF8F91B4BFDC4002A8CA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 971AF8F81B4BFDC4002A8CA6 /* Images.xcassets */; };
 		971AF8FC1B4BFDC4002A8CA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 971AF8FA1B4BFDC4002A8CA6 /* LaunchScreen.xib */; };
 		971AF9081B4BFDC4002A8CA6 /* DoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971AF9071B4BFDC4002A8CA6 /* DoTests.swift */; };
+		971AF9121B4BFEF8002A8CA6 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971AF9111B4BFEF8002A8CA6 /* AVOSCloud.framework */; };
+		971AF9151B4BFF55002A8CA6 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 971AF9141B4BFF55002A8CA6 /* libicucore.dylib */; };
+		971AF9171B4BFF5D002A8CA6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971AF9161B4BFF5D002A8CA6 /* SystemConfiguration.framework */; };
+		971AF9191B4BFF64002A8CA6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971AF9181B4BFF64002A8CA6 /* MobileCoreServices.framework */; };
+		971AF91B1B4BFF6B002A8CA6 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971AF91A1B4BFF6B002A8CA6 /* CoreTelephony.framework */; };
+		971AF91D1B4BFF71002A8CA6 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971AF91C1B4BFF71002A8CA6 /* CFNetwork.framework */; };
+		971AF91F1B4BFF7D002A8CA6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971AF91E1B4BFF7D002A8CA6 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,14 @@
 		971AF9011B4BFDC4002A8CA6 /* DoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		971AF9061B4BFDC4002A8CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		971AF9071B4BFDC4002A8CA6 /* DoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTests.swift; sourceTree = "<group>"; };
+		971AF9111B4BFEF8002A8CA6 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		971AF9141B4BFF55002A8CA6 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		971AF9161B4BFF5D002A8CA6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		971AF9181B4BFF64002A8CA6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		971AF91A1B4BFF6B002A8CA6 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		971AF91C1B4BFF71002A8CA6 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		971AF91E1B4BFF7D002A8CA6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		971AF9251B4C0002002A8CA6 /* Do-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Do-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				971AF91F1B4BFF7D002A8CA6 /* CoreLocation.framework in Frameworks */,
+				971AF91D1B4BFF71002A8CA6 /* CFNetwork.framework in Frameworks */,
+				971AF91B1B4BFF6B002A8CA6 /* CoreTelephony.framework in Frameworks */,
+				971AF9191B4BFF64002A8CA6 /* MobileCoreServices.framework in Frameworks */,
+				971AF9171B4BFF5D002A8CA6 /* SystemConfiguration.framework in Frameworks */,
+				971AF9151B4BFF55002A8CA6 /* libicucore.dylib in Frameworks */,
+				971AF9121B4BFEF8002A8CA6 /* AVOSCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +83,7 @@
 			children = (
 				971AF8EE1B4BFDC4002A8CA6 /* Do */,
 				971AF9041B4BFDC4002A8CA6 /* DoTests */,
+				971AF9131B4BFEFF002A8CA6 /* Frameworks */,
 				971AF8ED1B4BFDC4002A8CA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +106,7 @@
 				971AF8F81B4BFDC4002A8CA6 /* Images.xcassets */,
 				971AF8FA1B4BFDC4002A8CA6 /* LaunchScreen.xib */,
 				971AF8EF1B4BFDC4002A8CA6 /* Supporting Files */,
+				971AF9251B4C0002002A8CA6 /* Do-Bridging-Header.h */,
 			);
 			path = Do;
 			sourceTree = "<group>";
@@ -110,6 +134,20 @@
 				971AF9061B4BFDC4002A8CA6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		971AF9131B4BFEFF002A8CA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				971AF91E1B4BFF7D002A8CA6 /* CoreLocation.framework */,
+				971AF91C1B4BFF71002A8CA6 /* CFNetwork.framework */,
+				971AF91A1B4BFF6B002A8CA6 /* CoreTelephony.framework */,
+				971AF9181B4BFF64002A8CA6 /* MobileCoreServices.framework */,
+				971AF9161B4BFF5D002A8CA6 /* SystemConfiguration.framework */,
+				971AF9141B4BFF55002A8CA6 /* libicucore.dylib */,
+				971AF9111B4BFEF8002A8CA6 /* AVOSCloud.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,9 +380,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Do/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Do-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -352,9 +397,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Do/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Do-Bridging-Header.h";
 			};
 			name = Release;
 		};
