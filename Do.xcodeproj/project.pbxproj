@@ -462,6 +462,7 @@
 				971AF90D1B4BFDC4002A8CA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		971AF90E1B4BFDC4002A8CA6 /* Build configuration list for PBXNativeTarget "DoTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +471,7 @@
 				971AF9101B4BFDC4002A8CA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
